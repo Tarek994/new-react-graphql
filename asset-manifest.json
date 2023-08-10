@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/new-react-graphql/static/css/main.073c9b0a.css",
+    "main.js": "/new-react-graphql/static/js/main.f23c4212.js",
+    "static/js/787.f673949b.chunk.js": "/new-react-graphql/static/js/787.f673949b.chunk.js",
+    "static/media/logo.svg": "/new-react-graphql/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/new-react-graphql/index.html",
+    "main.073c9b0a.css.map": "/new-react-graphql/static/css/main.073c9b0a.css.map",
+    "main.f23c4212.js.map": "/new-react-graphql/static/js/main.f23c4212.js.map",
+    "787.f673949b.chunk.js.map": "/new-react-graphql/static/js/787.f673949b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.f23c4212.js"
+  ]
+}
