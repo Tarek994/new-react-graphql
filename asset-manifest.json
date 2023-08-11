@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/new-react-graphql/static/css/main.073c9b0a.css",
-    "main.js": "/new-react-graphql/static/js/main.a9d2ca84.js",
+    "main.js": "/new-react-graphql/static/js/main.d9087403.js",
     "static/js/787.f673949b.chunk.js": "/new-react-graphql/static/js/787.f673949b.chunk.js",
     "index.html": "/new-react-graphql/index.html",
     "main.073c9b0a.css.map": "/new-react-graphql/static/css/main.073c9b0a.css.map",
-    "main.a9d2ca84.js.map": "/new-react-graphql/static/js/main.a9d2ca84.js.map",
+    "main.d9087403.js.map": "/new-react-graphql/static/js/main.d9087403.js.map",
     "787.f673949b.chunk.js.map": "/new-react-graphql/static/js/787.f673949b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.a9d2ca84.js"
+    "static/js/main.d9087403.js"
   ]
 }
