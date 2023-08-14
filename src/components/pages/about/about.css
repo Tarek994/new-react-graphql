@@ -107,28 +107,47 @@
 }
 
 /* Target Audience */
-.target{
-    display: flex;
 
-    text-align: center;
+
+.main-target{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-between;
 }
 
-.targets .cards{
+.targets{
     display: flex;
     flex-direction: columns;
 }
-.custom-margin {
-    margin-bottom: 1rem;
-  }
-.card-title-tar{
-    text-align: center !important; 
+
+.target-title{
+    padding:3rem ;
 }
 
-.card-text-tar {
-    margin: auto;
-    text-align: start !important;
+.targets-list{
+    padding-top:3rem;
+    text-align: start;
+}
+
+
+.targets-img{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 .targets-img img{
     max-width: 400px;
+}
+
+/* Scope and Objectives */
+.scope, .features{
+    padding: 2rem;
+}
+.scope-title, .feature-title{
+    margin: 3rem;
+}
+
+.scope-list, .feature-list, .user-list{
+    text-align: start;
 }
