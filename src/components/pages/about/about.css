@@ -1,11 +1,11 @@
 .main-about {
   padding: 0.5rem;
-  border-radius: 7px;
+  border-radius: 15px;
   margin: auto;
   text-align: center;
   margin-top: 1rem;
   max-width: 1200px;
-  background-color: #ded8d8;
+  background-color: #fff;
 }
 
 .first-level {
@@ -28,8 +28,11 @@
 }
 
 .text-intro {
-  padding-left: 2rem;
+  padding:1rem 2rem;
+  margin-left: 2rem;
   text-align: start;
+  border-radius: 15px;
+  background-color: rgb(234, 244, 250);
 }
 
 .right-side img {
@@ -44,6 +47,9 @@
 
 .text-one {
   text-align: left;
+  border-radius: 15px;
+  padding:1rem 2rem;
+  background-color: rgb(234, 244, 250);
 }
 
 .third-level {
@@ -66,7 +72,10 @@
 
 .third-text {
   text-align: start;
-  margin-top: 3rem;
+  margin:3rem 2rem 0rem 0rem;
+  border-radius: 15px;
+  padding:1rem 1rem;
+  background-color: rgb(234, 244, 250);
 }
 
 .boxes {
@@ -91,9 +100,13 @@
   margin: 0.5rem;
   background-color: transparent;
   border: none;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3), 0px -4px 6px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  background-color: rgb(234, 244, 250);
 }
 
+.back{
+  background-color: rgb(234, 244, 250);
+}
 .problems-title {
   margin: 4rem 2rem;
 }
@@ -125,8 +138,12 @@
 }
 
 .targets-list{
-    padding-top:3rem;
+    margin: 0rem 0rem 0rem 2rem;
     text-align: start;
+    background-color: rgb(234, 244, 250);
+    padding: 3rem 2rem;
+    border-radius: 15px;
+    max-height: min-content;
 }
 
 
@@ -142,7 +159,10 @@
 
 /* Scope and Objectives */
 .scope, .features{
+    margin: 2rem;
     padding: 2rem;
+    background-color: rgb(234, 244, 250);
+    border-radius: 15px;
 }
 .scope-title, .feature-title{
     margin: 3rem;
