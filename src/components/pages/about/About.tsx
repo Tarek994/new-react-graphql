@@ -126,7 +126,7 @@ const about = () => {
                 -Seeking opportunities to engage in communal dining experiences.
               </p>
             </li>
-            <li> <strong> Single Young Professionals.</strong>
+            <li> <strong>Local Hosts and Touristic Cities.</strong>
               <p> -Local residents in touristic areas interested in hosting visitors for meals.
                 -Wish to offer a taste of local cuisine and hospitality to tourists.
                 -Open to forming connections with visitors through shared dining experiences.
