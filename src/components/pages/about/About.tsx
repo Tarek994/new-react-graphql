@@ -1,7 +1,7 @@
 import "./about.css"
 import one from "./about-assets/one.svg"
 import two from "./about-assets/two.svg"
-import three from "./about-assets/three.svg"
+import target from "./about-assets/target.svg"
 
 
 const about = () => {
@@ -111,61 +111,258 @@ const about = () => {
 
       {/* Target Audience */}
 
-      <div className="target">
+      <div className="main-target col-lg-12">
+        <div className="targets-list col-lg-6">
+          <ul className="tar-list">
+            <li> <strong> Single Young Professionals.</strong>
+              <p>-Individuals in the bustling working class with limited time for homemade meals. <br />
+                -Seeking convenient dining options and connections amid their busy schedules. <br />
+                -Desire to establish relationships while enjoying home-cooked food.
+              </p>
+            </li>
+            <li> <strong> Seniors Looking for Social Connections.</strong>
+              <p> -Elderly individuals with more available time and a penchant for social interaction.
+                -Eager to share meals and meaningful conversations with others.
+                -Seeking opportunities to engage in communal dining experiences.
+              </p>
+            </li>
+            <li> <strong> Single Young Professionals.</strong>
+              <p> -Local residents in touristic areas interested in hosting visitors for meals.
+                -Wish to offer a taste of local cuisine and hospitality to tourists.
+                -Open to forming connections with visitors through shared dining experiences.
+              </p>
+            </li>
+          </ul>
 
-        <div className="targets col-lg-12">
-          <h4> <strong>Target Audience:</strong> </h4>
-          <p>These distinct groups encompass the diverse spectrum of individuals who can benefit from and contribute to the Eatnan platform:
-        </p>
-          <div className="cards col-lg-6">
-            <div className="col-md-12  custom-margin">
-              <div className="card h-100">
-                <div className="card-body d-flex flex-column">
-                  <h5 className="card-title-tar"><strong>Single Young Professionals</strong></h5>
-                  <p className="card-text-tar flex-fill">-Individuals in the bustling working class with limited time for homemade meals. <br />
-                    -Seeking convenient dining options and connections amid their busy schedules. <br />
-                    -Desire to establish relationships while enjoying home-cooked food.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-12  custom-margin">
-              <div className="card h-100">
-                <div className="card-body d-flex flex-column">
-                  <h5 className="card-title-tar"><strong>Seniors Looking for Social Connections</strong></h5>
-                  <p className="card-text-tar flex-fill">-Elderly individuals with more available time and a penchant for social interaction. <br />
-                    -Eager to share meals and meaningful conversations with others. <br />
-                    -Seeking opportunities to engage in communal dining experiences.
 
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-12  custom-margin">
-              <div className="card h-100">
-                <div className="card-body d-flex flex-column">
-                  <h5 className="card-title-tar"><strong>Local Hosts and Touristic Cities</strong></h5>
-                  <p className="card-text-tar flex-fill">-Local residents in touristic areas interested in hosting visitors for meals. <br />
-                    -Wish to offer a taste of local cuisine and hospitality to tourists. <br />
-                    -Open to forming connections with visitors through shared dining experiences.
-
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
+
         <div className="targets-img col-lg-6">
-          <img src={three} alt="targets"/>
+          <div className="target-title">
+            <h4> <strong>Target Audience:</strong> </h4>
+            <p>These distinct groups encompass the diverse spectrum of individuals who can benefit from and contribute to the Eatnan platform:
+            </p>
+          </div>
+
+          <div className="target-img">
+            <img src={target} alt="targets" />
+          </div>
         </div>
 
       </div>
 
+      {/* Scope and Objectives */}
+      <div className="scope">
+        <h4 className="scope-title"><strong> Scope and Objectives</strong></h4>
+        <div className="scope-list">
+          <h5><strong> Connect Food Enthusiasts and Promote Community Building</strong></h5>
+          <ul>
+            <li>The primary aim of the app is to provide a convenient solution for busy individuals with hectic schedules to not only enjoy homemade meals but also connect with others.
+            </li>
+            <li> It's also for cooking enthusiasts who are enthusiastic about sharing their dishes with fellow users, including those who might be feeling lonely.
+            </li>
+            <li>This collective approach fosters a strong sense of community, ensuring that even those who might feel isolated can come together and enjoy homemade meals in a shared and supportive setting.</li>
+          </ul>
+          <h5> <strong> Promote responsible sustainable Lifestyles</strong></h5>
+          <ul>
+            <li>Lower energy consumption by reducing the need for individual cooking and double shopping.</li>
+            <li>Minimize food wastage by connecting individuals with surplus portions to those seeking meals.</li>
+          </ul>
+          <h5><strong>Explore Different Cuisines</strong></h5>
+          <ul>
+            <li> Provide a platform for users to explore various cuisines and culinary creations by connecting with hosts from diverse backgrounds, especially for big and diverse cities like Berlin, or touristic cities like Italy.
+            </li>
+          </ul>
+
+        </div>
 
 
 
-    </div>
-  )
+
+
+      </div>
+
+      {/* Features */}
+      <div className="features">
+        <h4 className="feature-title"><strong>Platform Features and Functionality</strong></h4>
+        <div className="feature-list">
+          <h5><strong> User Profiles:</strong></h5>
+          <ul>
+            <li>Allow users to create profiles with personal details, food preferences, and cooking specialties.
+
+            </li>
+            <li>Implement profile verification to enhance trust and safety within the community.
+
+            </li>
+
+          </ul>
+          <h5> <strong>Meal Posts:</strong></h5>
+          <ul>
+            <li>Enable users to create posts when they have extra food available.</li>
+            <li>Include details about the meal, such as cuisine, location, portion size, and dietary information.</li>
+          </ul>
+          <h5><strong>Request and Accept Invitations:</strong></h5>
+          <ul>
+            <li>Allow users to browse through meal posts and send requests to join a meal.</li>
+            <li>Provide hosts the option to accept or decline requests.</li>
+          </ul>
+
+          <h5><strong>Real-time Messaging:</strong></h5>
+          <ul>
+            <li>Incorporate a messaging system to facilitate communication between hosts and guests.</li>
+            <li>Enable users to discuss meal details, directions, and any specific requirements.</li>
+          </ul>
+
+          <h5><strong>Geolocation and Map Integration:</strong></h5>
+          <ul>
+            <li>Implement geolocation to help users find nearby meal opportunities.</li>
+            <li>Display meal posts on a map to make it easy for users to identify locations.</li>
+          </ul>
+          <h5><strong>Rating and Reviews:</strong></h5>
+          <ul>
+            <li>Allow users to rate and review their dining experiences.</li>
+            <li>Build a reputation system to recognize reliable hosts and respectful guests.</li>
+          </ul>
+          <h5><strong>Search and Filters:</strong></h5>
+          <ul>
+            <li>Provide search and filtering options to help users find meals based on cuisine, location, date, and dietary preferences.</li>
+          </ul>
+          <h5><strong>Notifications:</strong></h5>
+          <ul>
+            <li>Send notifications to users when there are new meal posts, messages, or updates related to their requests.</li>
+          </ul>
+          <h5><strong>Privacy and Safety Measures:</strong></h5>
+          <ul>
+            <li>Implement privacy settings to control who can view user profiles and meal posts.</li>
+            <li>Include reporting mechanisms to handle inappropriate content or behavior.</li>
+          </ul>
+          <h5><strong>Community Guidelines and Support:</strong></h5>
+          <ul>
+            <li>Offer clear community guidelines to ensure a positive and respectful atmosphere.</li>
+            <li>Provide customer support to address user questions and concerns.
+            </li>
+          </ul>
+
+        </div>
+
+
+
+
+
+      </div>
+
+
+      {/* User Flow: <TBD> */}
+      <div className="use-flow features">
+        <h4 className="feature-title"><strong>User Flow:</strong></h4>
+        <div className="user-list">
+          <ul>
+            <li>Describes the typical user journey through your application.</li>
+            <li>Explains how users will interact with different features and what the overall flow will look like.</li>
+          </ul>
+        </div>
+      </div>
+
+      {/*  Design & UE  */}
+
+
+      <div className="use-flow features">
+        <h4 className="feature-title"><strong>Design and User Experience:</strong></h4>
+        <div className="user-list">
+          <ul>
+            <li>Outlines the initial thoughts on the design and user experience of the application.</li>
+            <li>Mentions any specific design elements or UX principles you want to incorporate.</li>
+          </ul>
+        </div>
+      </div>
+
+      {/*  Technology Stack  */}
+
+
+      <div className="use-flow features">
+        <h4 className="feature-title"><strong>Technology Stack:</strong></h4>
+        <div className="user-list">
+          <ul>
+            <li>Product owner (Project manager).</li>
+            <li> Marketing team (Search of marketing opportunities, open channels to possible investors).
+            </li>
+            <li>Media team (UI/UX, create marketing advertisements, videos, photos).</li>
+            <li>Developers team (FE, BE, DevOps, iOS, Android) develop, test, secure the app prototype.</li>
+          </ul>
+        </div>
+      </div>
+
+      {/*  Project Timeline  */}
+
+
+      <div className="use-flow features">
+        <h4 className="feature-title"><strong>Project Timeline:</strong></h4>
+        <div className="user-list">
+          <ul>
+            <li>Create the project introduction. (high-level for MVP)
+            </li>
+            <li>Decide on the initial app features, design.
+
+            </li>
+            <li>Design the app screens.
+            </li>
+            <li>Build the first app prototype (front-end).
+            </li>
+            <li>Create the BE services, DevOps, and Database.</li>
+            <li>Include milestones and deliverables to give an overview of the project's progress.
+
+            </li>
+            <li>internal release and E2E testing
+            </li>
+            <li>Share the app idea with external stakeholders and seek support.
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      {/*  Monetization (TBD) */}
+
+
+      <div className="use-flow features">
+        <h4 className="feature-title"><strong>Monetization (TBD):</strong></h4>
+        <div className="user-list">
+          <ul>
+            <li>How suppose to get revenue from the app:</li>
+
+          </ul>
+        </div>
+      </div>
+
+      {/*  Competitor and threats Analysis (optional) */}
+
+
+      <div className="use-flow features">
+        <h4 className="feature-title"><strong>Competitor and threats Analysis (optional):</strong></h4>
+        <div className="user-list">
+          <ul>
+            <li>What are the competitors in the market?</li>
+            <li>Risk analysis: What can threat the app (idea or application),</li>
+
+          </ul>
+      </div>
+
+      {/*  Next Steps: */}
+      
+      <div className="use-flow features">
+        <h4 className="feature-title"><strong>Next Steps:</strong></h4>
+        <div className="user-list">
+          <ul>
+            <li>TBD</li>
+
+          </ul>
+
+        </div>
+
+
+      </div>
+      </div>
+      </div>
+      )
 }
 
-export default about
+      export default about
