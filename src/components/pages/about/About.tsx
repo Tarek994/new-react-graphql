@@ -112,34 +112,54 @@ const about = () => {
       {/* Target Audience */}
 
       <div className="target">
-  <div className="targets col-lg-12">
-    <h4> <strong>Target Audience:</strong> </h4>
-    <p>These distinct groups encompass the diverse spectrum of individuals who can benefit from and contribute to the Eatnan platform:</p>
-    <div className="cards col-lg-6">
-      <div className="row"> {/* Added a row here */}
-        <div className="col-md-12 custom-margin">
-          <div className="card h-100">
-            {/* Card content */}
-          </div>
-        </div>
-        <div className="col-md-12 custom-margin">
-          <div className="card h-100">
-            {/* Card content */}
-          </div>
-        </div>
-        <div className="col-md-12 custom-margin">
-          <div className="card h-100">
-            {/* Card content */}
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div className="targets-img col-lg-6"> {/* Added a col-lg-6 class */}
-    <img src={three} alt="targets" />
-  </div>
-</div>
 
+        <div className="targets col-lg-12">
+          <h4> <strong>Target Audience:</strong> </h4>
+          <p>These distinct groups encompass the diverse spectrum of individuals who can benefit from and contribute to the Eatnan platform:
+        </p>
+          <div className="cards col-lg-6">
+            <div className="col-md-12  custom-margin">
+              <div className="card h-100">
+                <div className="card-body d-flex flex-column">
+                  <h5 className="card-title-tar"><strong>Single Young Professionals</strong></h5>
+                  <p className="card-text-tar flex-fill">-Individuals in the bustling working class with limited time for homemade meals. <br />
+                    -Seeking convenient dining options and connections amid their busy schedules. <br />
+                    -Desire to establish relationships while enjoying home-cooked food.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-12  custom-margin">
+              <div className="card h-100">
+                <div className="card-body d-flex flex-column">
+                  <h5 className="card-title-tar"><strong>Seniors Looking for Social Connections</strong></h5>
+                  <p className="card-text-tar flex-fill">-Elderly individuals with more available time and a penchant for social interaction. <br />
+                    -Eager to share meals and meaningful conversations with others. <br />
+                    -Seeking opportunities to engage in communal dining experiences.
+
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-12  custom-margin">
+              <div className="card h-100">
+                <div className="card-body d-flex flex-column">
+                  <h5 className="card-title-tar"><strong>Local Hosts and Touristic Cities</strong></h5>
+                  <p className="card-text-tar flex-fill">-Local residents in touristic areas interested in hosting visitors for meals. <br />
+                    -Wish to offer a taste of local cuisine and hospitality to tourists. <br />
+                    -Open to forming connections with visitors through shared dining experiences.
+
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="targets-img col-lg-6">
+          <img src={three} alt="targets"/>
+        </div>
+
+      </div>
 
 
 
