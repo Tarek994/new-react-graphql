@@ -1,0 +1,134 @@
+.main-about {
+  padding: 0.5rem;
+  border-radius: 7px;
+  margin: auto;
+  text-align: center;
+  margin-top: 1rem;
+  max-width: 1200px;
+  background-color: #ded8d8;
+}
+
+.first-level {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-side {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.intro-title {
+  text-align: start;
+  padding-left: 2rem;
+  margin-bottom: 3rem;
+}
+
+.text-intro {
+  padding-left: 2rem;
+  text-align: start;
+}
+
+.right-side img {
+  max-width: 500px;
+  justify-content: center;
+}
+
+.second-level {
+  margin-top: 1.5rem;
+  padding: 0rem 2rem;
+}
+
+.text-one {
+  text-align: left;
+}
+
+.third-level {
+  display: flex;
+}
+
+.third-level-title {
+  text-align: start;
+  padding-left: 2rem;
+  margin: 3rem 0rem;
+}
+
+.third-img {
+  max-width: 400px;
+}
+
+.third-right-side {
+  margin-top: 6rem;
+}
+
+.third-text {
+  text-align: start;
+  margin-top: 3rem;
+}
+
+.boxes {
+  margin-top: 3rem;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.problem {
+  padding: 1rem;
+  text-align: start;
+  flex: 1;
+  max-width: calc(33.33% - 20px);
+  margin-bottom: 20px;
+  margin: 0.5rem;
+  background-color: transparent;
+  border: none;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3), 0px -4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.problems-title {
+  margin: 4rem 2rem;
+}
+
+.card-title {
+  margin-bottom: 1.5rem;
+}
+
+.card-text {
+  text-align: start;
+}
+
+/* Target Audience */
+.target{
+    display: flex;
+
+    text-align: center;
+}
+
+.targets .cards{
+    display: flex;
+    flex-direction: columns;
+}
+.custom-margin {
+    margin-bottom: 1rem;
+  }
+.card-title-tar{
+    text-align: center !important; 
+}
+
+.card-text-tar {
+    margin: auto;
+    text-align: start !important;
+}
+
+.targets-img img{
+    max-width: 400px;
+}
