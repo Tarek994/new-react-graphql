@@ -69,7 +69,7 @@ const about = () => {
         </h4>
         <div className="cards row">
           <div className="col-md-4">
-            <div className="card h-100">
+            <div className="card back shadow h-100">
               <div className="card-body d-flex flex-column">
                 <h5 className="card-title ">Time Constraints and Social Isolation</h5>
                 <p className="card-text flex-fill">-Modern lives leave little time for enjoying homemade meals and meaningful interactions. <br />
@@ -80,7 +80,7 @@ const about = () => {
           </div>
 
           <div className="col-md-4">
-            <div className="card h-100">
+            <div className="card back shadow h-100">
               <div className="card-body d-flex flex-column">
                 <h5 className="card-title">Food Waste and Environmental Impact
                 </h5>
@@ -92,7 +92,7 @@ const about = () => {
           </div>
 
           <div className="col-md-4">
-            <div className="card">
+            <div className="card back shadow h-100">
               <div className="card-body">
                 <h5 className="card-title">Need for Sustainability and Community Building</h5>
                 <p className="card-text">-Conventional dining lacks intimacy, authenticity, and sustainability. <br />
