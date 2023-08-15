@@ -121,7 +121,7 @@ const about = () => {
               </p>
             </li>
             <li> <strong> Seniors Looking for Social Connections.</strong>
-              <p> -Elderly individuals with more available time and a penchant for social interaction.
+              <p> -Elderly individuals with more available time and a penchant for social interaction. <br />
                 -Eager to share meals and meaningful conversations with others.
                 -Seeking opportunities to engage in communal dining experiences.
               </p>
