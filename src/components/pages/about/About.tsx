@@ -254,7 +254,7 @@ const about = () => {
 
       {/* User Flow: <TBD> */}
       <div className="use-flow features">
-        <h4 className="feature-title"><strong>User Flow:</strong></h4>
+        <h4 className="feature-title"><strong>User Flow</strong></h4>
         <div className="user-list">
           <ul>
             <li>Describes the typical user journey through your application.</li>
@@ -267,7 +267,7 @@ const about = () => {
 
 
       <div className="use-flow features">
-        <h4 className="feature-title"><strong>Design and User Experience:</strong></h4>
+        <h4 className="feature-title"><strong>Design and User Experience</strong></h4>
         <div className="user-list">
           <ul>
             <li>Outlines the initial thoughts on the design and user experience of the application.</li>
@@ -280,7 +280,7 @@ const about = () => {
 
 
       <div className="use-flow features">
-        <h4 className="feature-title"><strong>Technology Stack:</strong></h4>
+        <h4 className="feature-title"><strong>Technology Stack</strong></h4>
         <div className="user-list">
           <ul>
             <li>Product owner (Project manager).</li>
@@ -296,7 +296,7 @@ const about = () => {
 
 
       <div className="use-flow features">
-        <h4 className="feature-title"><strong>Project Timeline:</strong></h4>
+        <h4 className="feature-title"><strong>Project Timeline</strong></h4>
         <div className="user-list">
           <ul>
             <li>Create the project introduction. (high-level for MVP)
@@ -324,7 +324,7 @@ const about = () => {
 
 
       <div className="use-flow features">
-        <h4 className="feature-title"><strong>Monetization (TBD):</strong></h4>
+        <h4 className="feature-title"><strong>Monetization (TBD)</strong></h4>
         <div className="user-list">
           <ul>
             <li>How suppose to get revenue from the app:</li>
@@ -337,32 +337,32 @@ const about = () => {
 
 
       <div className="use-flow features">
-        <h4 className="feature-title"><strong>Competitor and threats Analysis (optional):</strong></h4>
+        <h4 className="feature-title"><strong>Competitor and threats Analysis (optional)</strong></h4>
         <div className="user-list">
           <ul>
             <li>What are the competitors in the market?</li>
             <li>Risk analysis: What can threat the app (idea or application),</li>
 
           </ul>
-      </div>
-
-      {/*  Next Steps: */}
-      
-      <div className="use-flow features">
-        <h4 className="feature-title"><strong>Next Steps:</strong></h4>
-        <div className="user-list">
-          <ul>
-            <li>TBD</li>
-
-          </ul>
-
         </div>
 
+        {/*  Next Steps: */}
 
+        <div className="use-flow features">
+          <h4 className="feature-title"><strong>Next Steps</strong></h4>
+          <div className="user-list">
+            <ul>
+              <li>TBD</li>
+
+            </ul>
+
+          </div>
+
+
+        </div>
       </div>
-      </div>
-      </div>
-      )
+    </div>
+  )
 }
 
-      export default about
+export default about
