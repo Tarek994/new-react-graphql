@@ -127,8 +127,8 @@ const about = () => {
               </p>
             </li>
             <li> <strong>Local Hosts and Touristic Cities.</strong>
-              <p> -Local residents in touristic areas interested in hosting visitors for meals.
-                -Wish to offer a taste of local cuisine and hospitality to tourists.
+              <p> -Local residents in touristic areas interested in hosting visitors for meals. <br />
+                -Wish to offer a taste of local cuisine and hospitality to tourists. <br />
                 -Open to forming connections with visitors through shared dining experiences.
               </p>
             </li>
