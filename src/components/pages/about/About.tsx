@@ -4,7 +4,7 @@ import two from "./about-assets/two.svg"
 import target from "./about-assets/target.svg"
 
 
-const about = () => {
+const About = () => {
   return (
     <div className="main-about col-lg-12">
       <div className="first-level col-lg-12">
@@ -365,4 +365,4 @@ const about = () => {
   )
 }
 
-export default about
+export default About
