@@ -1,0 +1,173 @@
+.main-about {
+  padding: 0.5rem;
+  border-radius: 15px;
+  margin: auto;
+  text-align: center;
+  margin-top: 1rem;
+  max-width: 1200px;
+  background-color: #fff;
+}
+
+.first-level {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-side {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.intro-title {
+  text-align: start;
+  padding-left: 2rem;
+  margin-bottom: 3rem;
+}
+
+.text-intro {
+  padding:1rem 2rem;
+  margin-left: 2rem;
+  text-align: start;
+  border-radius: 15px;
+  background-color: rgb(234, 244, 250);
+}
+
+.right-side img {
+  max-width: 500px;
+  justify-content: center;
+}
+
+.second-level {
+  margin-top: 1.5rem;
+  padding: 0rem 2rem;
+}
+
+.text-one {
+  text-align: left;
+  border-radius: 15px;
+  padding:1rem 2rem;
+  background-color: rgb(234, 244, 250);
+}
+
+.third-level {
+  display: flex;
+}
+
+.third-level-title {
+  text-align: start;
+  padding-left: 2rem;
+  margin: 3rem 0rem;
+}
+
+.third-img {
+  max-width: 400px;
+}
+
+.third-right-side {
+  margin-top: 6rem;
+}
+
+.third-text {
+  text-align: start;
+  margin:3rem 2rem 0rem 0rem;
+  border-radius: 15px;
+  padding:1rem 1rem;
+  background-color: rgb(234, 244, 250);
+}
+
+.boxes {
+  margin-top: 3rem;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.problem {
+  padding: 1rem;
+  text-align: start;
+  flex: 1;
+  max-width: calc(33.33% - 20px);
+  margin-bottom: 20px;
+  margin: 0.5rem;
+  background-color: transparent;
+  border: none;
+  border-radius: 15px;
+  background-color: rgb(234, 244, 250);
+}
+
+.back{
+  background-color: rgb(234, 244, 250);
+}
+.problems-title {
+  margin: 4rem 2rem;
+}
+
+.card-title {
+  margin-bottom: 1.5rem;
+}
+
+.card-text {
+  text-align: start;
+}
+
+/* Target Audience */
+
+
+.main-target{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.targets{
+    display: flex;
+    flex-direction: columns;
+}
+
+.target-title{
+    padding:3rem ;
+}
+
+.targets-list{
+    margin: 0rem 0rem 0rem 2rem;
+    text-align: start;
+    background-color: rgb(234, 244, 250);
+    padding: 3rem 2rem;
+    border-radius: 15px;
+    max-height: min-content;
+}
+
+
+.targets-img{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.targets-img img{
+    max-width: 400px;
+}
+
+/* Scope and Objectives */
+.scope, .features{
+    margin: 2rem;
+    padding: 2rem;
+    background-color: rgb(234, 244, 250);
+    border-radius: 15px;
+}
+.scope-title, .feature-title{
+    margin: 3rem;
+}
+
+.scope-list, .feature-list, .user-list{
+    text-align: start;
+}
