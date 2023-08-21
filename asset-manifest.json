@@ -1,15 +1,19 @@
 {
   "files": {
-    "main.css": "/new-react-graphql/static/css/main.073c9b0a.css",
-    "main.js": "/new-react-graphql/static/js/main.d9087403.js",
+    "main.css": "/new-react-graphql/static/css/main.9389fe28.css",
+    "main.js": "/new-react-graphql/static/js/main.6c43f0d2.js",
     "static/js/787.f673949b.chunk.js": "/new-react-graphql/static/js/787.f673949b.chunk.js",
+    "static/media/one.svg": "/new-react-graphql/static/media/one.5521d9f7359b38c8c98d11eafc93b7a3.svg",
+    "static/media/target.svg": "/new-react-graphql/static/media/target.93a22457ab524045ad80be43e69880a3.svg",
+    "static/media/two.svg": "/new-react-graphql/static/media/two.f937e4283582f4a81f616a5c99e81597.svg",
+    "static/media/logo.png": "/new-react-graphql/static/media/logo.479d6281bd993c4dc200.png",
     "index.html": "/new-react-graphql/index.html",
-    "main.073c9b0a.css.map": "/new-react-graphql/static/css/main.073c9b0a.css.map",
-    "main.d9087403.js.map": "/new-react-graphql/static/js/main.d9087403.js.map",
+    "main.9389fe28.css.map": "/new-react-graphql/static/css/main.9389fe28.css.map",
+    "main.6c43f0d2.js.map": "/new-react-graphql/static/js/main.6c43f0d2.js.map",
     "787.f673949b.chunk.js.map": "/new-react-graphql/static/js/787.f673949b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.d9087403.js"
+    "static/css/main.9389fe28.css",
+    "static/js/main.6c43f0d2.js"
   ]
 }
