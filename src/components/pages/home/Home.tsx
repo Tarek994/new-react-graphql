@@ -1,10 +1,14 @@
 import React from 'react'
+import "./home.css"
 
 const Home = () => {
     return (
-        <div id='home' className="home">
-            <h1> Here is the Eatnan app</h1>
-            <img src="https://media.tenor.com/gmXv0eKLZPIAAAAM/pop-corn-eating.gif" alt="eating logo" />
+        <div id='home' className="home shadow col-lg-12">
+            <div className="hero d-flex">
+            <h1 className="hero-title col-lg-4"> Here is the Eatnan app</h1>
+            <h4 className="hero-text col-lg-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam repudiandae nulla, quidem quisqua</h4>
+
+            </div>
         </div>
     )
 }
