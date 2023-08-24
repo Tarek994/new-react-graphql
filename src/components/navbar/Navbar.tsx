@@ -5,7 +5,7 @@ import logo from "./nav-assets/logo.png";
 
 const Navbar = () => {
   return (
-    <nav className="main-navbar">
+    <nav className="main-navbar shadow">
       <div className='navbar'>
         <div className="navbar-left">
           <Link to="/">
