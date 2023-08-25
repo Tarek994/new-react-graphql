@@ -1,13 +1,127 @@
 .home {
-    padding: 0.5rem;
-    border-radius: 15px;
-    margin: auto;
-    text-align: center;
-    margin-top: 1rem;
-    max-width: 1200px;
-    background-color: #fff;
-  }
-  .hero-title{
+  padding: 0.5rem;
+  border-radius: 15px;
+  margin: auto;
+  text-align: center;
+  margin-top: 1rem;
+  max-width: 1200px;
+  background-color: #fff;
+}
 
-    color: #807d0c;
-  }
+.hero-title {
+  color: #807d0c;
+  margin: 1rem 0rem;
+  font-family: 'Tilt Prism', cursive;
+  font-weight: 900;
+
+}
+
+.main-hero {
+  margin: 3rem auto;
+}
+
+.image {
+  margin: 2rem auto;
+  max-width: 95%;
+  padding: 1rem;
+  text-align: start;
+  background-color: #b4b02d;
+  border-radius: 15px;
+}
+
+/* home.css */
+
+.image img {
+  max-width: 90%;
+  height: auto;
+  border-radius: 15px;
+
+}
+
+.hero-text {
+  flex-wrap: wrap;
+  width: 100%;
+  font-weight: 600;
+  font-size: 30px;
+  padding: 1rem;
+  color: #807d0c;
+
+}
+
+.img-text {
+  margin-top: 3rem;
+  color: #fff;
+  width: 70%;
+
+}
+
+.third-part img {
+  border-radius: 15px;
+  max-width: 40%;
+  height: auto;
+  border-radius: 15px;
+}
+
+.third-part {
+  margin: 2rem auto;
+  max-width: 95%;
+  padding: 1rem;
+  text-align: start;
+  background-color: #b4b02d;
+  border-radius: 15px;
+}
+
+.third-part-text {
+  margin: 5rem 4rem;
+  font-weight: 600;
+
+}
+
+/* footer */
+
+.footer {
+  margin: auto;
+  border-radius: 15px;
+  background-color:#b4b02d;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding:3rem 1rem;
+  max-width: 95%;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-one{
+  display: flex;
+}
+
+.footer-title {
+  color:#000;
+  font-family: 'Tilt Prism', cursive;
+  width:30%;
+  width: min-content;
+  text-align: start;
+
+}
+
+.footer-text {
+  margin-left: 5rem;
+  width: 70%;
+  text-align: start;
+  
+}
+
+.social-icon {
+  margin-top: 20px;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+.social-icon a {
+  color:#fff;
+  padding:0.5rem;
+  border-radius:15px;
+  background-color:#807d0c;
+  margin-left: 1rem;
+}
