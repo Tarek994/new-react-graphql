@@ -3,7 +3,6 @@ import "./home.css"
 import hero from "./home-assets/hero5.jpg"
 import hero2 from "./home-assets/hero6.jpg"
 import { Link } from 'react-router-dom'
-import Typewriter from 'react-typewriter-effect';
 
 
 const Home = () => {
@@ -12,13 +11,7 @@ const Home = () => {
             <div className="main-hero ">
                 <div className="hero  d-flex">
                 <h1 className="hero-title ">
-                <Typewriter
-        options={{
-          strings: 'Eatnan... meet... meal... make company',
-          autoStart: true,
-          loop: true,
-        }}
-      />            
+                   Eatnan... meet... meal... make company
                     </h1>
                 <h4 className="hero-text ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam repudiandae nulla, quidem quisqua</h4>
                 </div>
