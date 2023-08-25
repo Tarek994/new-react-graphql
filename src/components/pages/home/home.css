@@ -7,7 +7,68 @@
     max-width: 1200px;
     background-color: #fff;
   }
-  .hero-title{
 
+.hero-title{
+    font-weight: bold;
     color: #807d0c;
-  }
+    margin: 1rem 0rem;
+}
+
+.main-hero{
+  margin: 3rem auto;
+}
+
+.image{
+  margin:2rem auto;
+  max-width: 95%;
+  padding: 1rem;
+  text-align: start;
+  background-color: #b4b02d;
+  border-radius: 15px;
+}
+
+/* home.css */
+
+.image img {
+  max-width: 90%;
+  height: auto;
+  border-radius: 15px;
+
+}
+
+.hero-text{
+  flex-wrap: wrap;
+  width: 100%;
+  font-weight: 600;
+  font-size: 30px;
+  padding: 1rem;
+  color: #807d0c;
+
+}
+
+.img-text{
+  margin-top: 3rem;
+  color: #fff;
+  width: 70%;
+
+ }
+
+ .third-part img {
+  border-radius: 15px;
+  max-width: 40%;
+  height: auto;
+  border-radius: 15px;
+ }
+
+ .third-part{
+  margin:2rem auto;
+  max-width: 95%;
+  padding: 1rem;
+  text-align: start;
+  background-color: #b4b02d;
+  border-radius: 15px;
+ }
+ .third-part-text{
+  color: #fff;
+  margin: 5rem 4rem;
+ }
