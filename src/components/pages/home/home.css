@@ -9,7 +9,7 @@
 }
 
 .main-hero {
-  min-height:13rem;
+  min-height: 13rem;
   margin: 3rem auto;
 }
 
@@ -18,11 +18,8 @@
   margin: 2rem 0rem;
   font-family: 'Tilt Prism', cursive;
   font-weight: 900;
-  width:50%;
-
+  width: 50%;
 }
-
-
 
 .image {
   margin: 2rem auto;
@@ -33,52 +30,58 @@
   border-radius: 15px;
 }
 
-/* home.css */
+/* hero */
 
 .image img {
   max-width: 90%;
   height: auto;
   border-radius: 15px;
+}
 
+.image h3 {
+  margin-top: 2rem;
 }
 
 .hero-text {
+  text-align: start;
   flex-wrap: wrap;
   width: 100%;
   font-weight: 600;
   font-size: 30px;
   padding: 1rem;
   color: #807d0c;
-
 }
 
 .img-text {
   margin-top: 3rem;
   color: #fff;
   width: 70%;
-
 }
 
 .third-part img {
+  text-align: end;
   border-radius: 15px;
-  max-width: 40%;
-  height: auto;
+  width: 90%;
   border-radius: 15px;
 }
 
 .third-part {
-  margin: 2rem auto;
+  text-align: start;
+  margin: 2rem;
   max-width: 95%;
   padding: 1rem;
-  text-align: start;
   background-color: #b4b02d;
   border-radius: 15px;
+  min-height: 70rem;
+}
+
+.third-part h3 {
+  margin-top: 2rem;
 }
 
 .third-part-text {
-  margin: 5rem 4rem;
-  font-weight: 600;
-
+  width: 80%;
+  margin: 5rem 0rem;
 }
 
 /* footer */
@@ -86,48 +89,45 @@
 .footer {
   margin: auto;
   border-radius: 15px;
-  background-color:#b4b02d;
+  background-color: #b4b02d;
   justify-content: space-between;
   align-items: flex-start;
-  padding:3rem 1rem;
+  padding: 3rem 1rem;
   max-width: 95%;
   display: flex;
   flex-direction: column;
 }
 
-.footer-one{
+.footer-one {
   display: flex;
 }
 
 .footer-title {
-  color:#000;
+  color: #000;
   font-family: 'Tilt Prism', cursive;
-  width:30%;
+  width: 30%;
   width: min-content;
   text-align: start;
-
 }
 
 .footer-text {
   margin-left: 5rem;
   width: 70%;
   text-align: start;
-  
 }
 
 .social-icon {
   margin-top: 20px;
   text-align: center;
   text-decoration: none;
-  margin-top:2rem;
-  margin-left:11rem;
-
+  margin-top: 2rem;
+  margin-left: 11rem;
 }
 
 .social-icon a {
-  color:#fff;
-  padding:0.5rem;
-  border-radius:15px;
-  background-color:#807d0c;
+  color: #fff;
+  padding: 0.5rem;
+  border-radius: 15px;
+  background-color: #807d0c;
   margin-left: 1rem;
 }
