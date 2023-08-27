@@ -63,7 +63,7 @@ const Home = () => {
             <div className="footer">
                 <div className="footer-one">
                     <h2 className="footer-title">
-                        <Link to="section-1"> EATNAN</Link>
+                        <Link to="section-1">EATNAN</Link>
                     </h2>
 
                     <div className="footer-text">Bringing people together over shared meals, the app cultivates connections and fosters companionship, nurturing not only appetites but also meaningful relationships. <i> know more from About page.</i></div>
