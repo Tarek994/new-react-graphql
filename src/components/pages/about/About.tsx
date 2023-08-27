@@ -6,7 +6,7 @@ import target from "./about-assets/target.svg"
 
 const About = () => {
   return (
-    <div className="main-about col-lg-12">
+    <div className="main-about shadow col-lg-12">
       <div className="first-level col-lg-12">
         <div className="left-side col-lg-6">
           <h3 className="intro-title">Introduction :</h3>

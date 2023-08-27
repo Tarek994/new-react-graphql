@@ -1,11 +1,12 @@
 .main-navbar {
+    margin:1rem auto;
+    border-radius: 15px;
+    max-width: 1200px;
     background-color: #fff;
 }
 
 .navbar {
     margin: auto;
-
-    max-width: 1200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,12 +27,12 @@
 }
 
 .btn {
-    background-color: #4ab76e;
+    background-color: #807d0c;
     color: white;
     border: none;
     margin-right: 1rem;
     padding: 0.5rem 1rem;
-    border-radius: 0rem;
+    border-radius: 15px;
     cursor: pointer;
 }
 
