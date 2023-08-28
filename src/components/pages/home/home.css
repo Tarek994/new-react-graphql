@@ -1,0 +1,11 @@
+.main-home {
+    margin-top: 0.5rem;
+    background-color:var(--color-primary);
+    width: 100%;
+}
+
+.home {
+    margin: auto;
+    max-width: 1200px;
+}
+
