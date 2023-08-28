@@ -18,7 +18,9 @@ ul {
 }
 
 a {
+  margin: 1rem;
   text-decoration: none;
+  color: var(--color-darkest);
 }
 
 :root {
