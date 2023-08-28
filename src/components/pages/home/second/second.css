@@ -1,0 +1,35 @@
+.main-second {
+    margin: 2rem 0rem;
+    display: flex;
+    padding: 2rem 1rem 2rem 0rem;
+    flex-direction: column;
+}
+
+.second {
+    border-radius: var(--border-radius-primary);
+    background: var(--color-secondary);
+    /* background: #2a9d8f; */
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0rem;
+}
+
+.second-text-top {
+    margin-bottom: 2rem;
+}
+
+.second-paragraph {
+    padding: 2rem 1rem;
+}
+
+.second-img-group {
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.second-img-hands {
+    width: 100%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
