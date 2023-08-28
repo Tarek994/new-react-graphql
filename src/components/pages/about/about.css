@@ -1,9 +1,15 @@
+.about {
+  background-color: var(--color-primary);
+  padding: 1rem;
+  margin-top: 0.5rem;
+}
+
 .main-about {
   padding: 0.5rem;
   border-radius: 15px;
   margin: auto;
   text-align: center;
-  margin-top: 1rem;
+  margin: 0.5rem auto;
   max-width: 1200px;
   background-color: #fff;
 }
@@ -28,7 +34,7 @@
 }
 
 .text-intro {
-  padding:1rem 2rem;
+  padding: 1rem 2rem;
   margin-left: 2rem;
   text-align: start;
   border-radius: 15px;
@@ -48,7 +54,7 @@
 .text-one {
   text-align: left;
   border-radius: 15px;
-  padding:1rem 2rem;
+  padding: 1rem 2rem;
   background-color: rgb(234, 244, 250);
 }
 
@@ -72,9 +78,9 @@
 
 .third-text {
   text-align: start;
-  margin:3rem 2rem 0rem 0rem;
+  margin: 3rem 2rem 0rem 0rem;
   border-radius: 15px;
-  padding:1rem 1rem;
+  padding: 1rem 1rem;
   background-color: rgb(234, 244, 250);
 }
 
@@ -104,9 +110,10 @@
   background-color: rgb(234, 244, 250);
 }
 
-.back{
+.back {
   background-color: rgb(234, 244, 250);
 }
+
 .problems-title {
   margin: 4rem 2rem;
 }
@@ -122,52 +129,57 @@
 /* Target Audience */
 
 
-.main-target{
-    margin-top: 4rem;
-    display: flex;
-    justify-content: space-between;
+.main-target {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: space-between;
 }
 
-.targets{
-    display: flex;
-    flex-direction: columns;
+.targets {
+  display: flex;
+  flex-direction: columns;
 }
 
-.target-title{
-    padding:3rem ;
+.target-title {
+  padding: 3rem;
 }
 
-.targets-list{
-    margin: 0rem 0rem 0rem 2rem;
-    text-align: start;
-    background-color: rgb(234, 244, 250);
-    padding: 3rem 2rem;
-    border-radius: 15px;
-    max-height: min-content;
+.targets-list {
+  margin: 0rem 0rem 0rem 2rem;
+  text-align: start;
+  background-color: rgb(234, 244, 250);
+  padding: 3rem 2rem;
+  border-radius: 15px;
+  max-height: min-content;
 }
 
 
-.targets-img{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+.targets-img {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
-.targets-img img{
-    max-width: 400px;
+.targets-img img {
+  max-width: 400px;
 }
 
 /* Scope and Objectives */
-.scope, .features{
-    margin: 2rem;
-    padding: 2rem;
-    background-color: rgb(234, 244, 250);
-    border-radius: 15px;
-}
-.scope-title, .feature-title{
-    margin: 3rem;
+.scope,
+.features {
+  margin: 2rem;
+  padding: 2rem;
+  background-color: rgb(234, 244, 250);
+  border-radius: 15px;
 }
 
-.scope-list, .feature-list, .user-list{
-    text-align: start;
+.scope-title,
+.feature-title {
+  margin: 3rem;
+}
+
+.scope-list,
+.feature-list,
+.user-list {
+  text-align: start;
 }
