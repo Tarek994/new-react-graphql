@@ -1,10 +1,9 @@
 .main-navbar {
-    background-color: #fff;
+    background-color:var(--color-primary);
 }
 
 .navbar {
     margin: auto;
-
     max-width: 1200px;
     display: flex;
     justify-content: space-between;
@@ -26,19 +25,19 @@
 }
 
 .btn {
-    background-color: #4ab76e;
-    color: white;
+    background-color:var(--color-dark);
+    font-weight: var(--font-weight-bold);
     border: none;
     margin-right: 1rem;
     padding: 0.5rem 1rem;
-    border-radius: 0rem;
+    border-radius: var(--border-radius-primary);
     cursor: pointer;
 }
 
 
 @media (max-width: 768px) {
     .navbar {
-        padding: 10px;
+        padding: calc(var(--distance-primary)/4);
     }
 
     .btn {
