@@ -1,6 +1,7 @@
 import Hero from "./hero/Hero"
 import "./home.css"
 import Second from "./second/Second"
+import Cards from "./cards/Cards"
 
 
 
@@ -10,7 +11,7 @@ const Home = () => {
             <div className="home col-lg-12">
                 <Hero/>
                 <Second/>
-
+                <Cards/>
             </div>
         </div>
     )
