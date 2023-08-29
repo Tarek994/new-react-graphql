@@ -1,28 +1,46 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
 import "./navbar.css";
 import logo from "./nav-assets/logo.png";
 import Grid from '@mui/material/Unstable_Grid2';
+import Tabs from '@mui/material/Tabs';
+import LinkTab from '@mui/material/Tab';
 
 const Navbar = () => {
+  const handleChange = (e: any) => {
+    console.log(e)
+  }
   return (
-    <Grid xs={12}>
-      <nav className="main-navbar" style={{ backgroundColor: 'red' }}>
-        <div className='navbar'>
-          <div className="navbar-left">
-            <Link to="/">
-              <img src={logo} alt="Logo" className="logo" />
-            </Link>
-          </div>
-          <div className="navbar-right">
-            <Link to="/about">
-              <button className="btn">About</button>
-            </Link>
-          </div>
+    <Grid
+      container
+      xs={12}
+      md={12}
+      maxWidth={'lg'}
+      justifyContent="flex-end"
+      style={{ backgroundColor: 'white' }}
+      justifyItems="center"
+      alignContent="center"
+    >
+      <Grid xs={3} md={2}>
+        <img src={logo} alt="Logo" className="logo" />
+      </Grid>
+      <Grid
+        container
+        xs={8}
+        md={10}
+        justifyContent="flex-end"
+        justifyItems="center"
+        alignContent="center"
+      >
+        <div>
+          <Tabs
+            onChange={handleChange}
+            aria-label="basic tabs example"
+          >
+            <LinkTab label="About" href='/#/about' />
+            <LinkTab label="Home" href='/#' />
+          </Tabs>
         </div>
-      </nav>
-    </Grid>
-
+      </Grid>
+    </Grid >
   );
 };
 
