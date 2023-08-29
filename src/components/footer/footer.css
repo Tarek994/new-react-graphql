@@ -1,13 +1,13 @@
 .main-footer {
     width: 100%;
     background-color: var(--color-primary);
-
 }
 
 .footer {
     max-width: 1200px;
     margin: 0.5rem auto;
-
+    padding: 2rem 0rem;
+    align-items: center;
 }
 
 .footer-logo {
@@ -17,20 +17,20 @@
 .footer-logo-title {
     display: flex;
     align-items: center;
-    font-size: 4rem;
+    font-size: 2rem;
 }
 
 .footer-navigation {
     display: flex;
     align-items: center;
-
     justify-content: center;
 }
 
 .footer-nav {
     color: var(--color-light);
     background-color: var(--color-dark);
-    padding: 0.5rem 1.2rem;
+    padding: 0.5rem 1rem;
     border: none;
     border-radius: var(--border-radius-secondary);
+    font-size: 12px;
 }
