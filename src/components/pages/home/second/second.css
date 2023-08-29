@@ -1,17 +1,16 @@
 .main-second {
-    margin: 2rem 0rem;
+
     display: flex;
-    padding: 2rem 1rem 2rem 0rem;
+    padding: 2rem 1rem 1rem 0rem;
     flex-direction: column;
 }
 
 .second {
     border-radius: var(--border-radius-primary);
     background: var(--color-secondary);
-    /* background: #2a9d8f; */
     display: flex;
     justify-content: space-between;
-    margin: 2rem 0rem;
+    margin: 4rem 0rem;
 }
 
 .second-text-top {
