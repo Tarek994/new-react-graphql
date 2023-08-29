@@ -2,7 +2,6 @@ import "./second.css";
 import group from "./second-assets/group.jpg"
 import hands from "./second-assets/hands.jpg"
 
-
 const Second = () => {
     return (
         <div className="main-second col-lg-12">
