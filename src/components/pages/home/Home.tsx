@@ -1,10 +1,18 @@
-import React from 'react'
+import Hero from "./hero/Hero"
+import "./home.css"
+import Second from "./second/Second"
+import Cards from "./cards/Cards"
+
+
 
 const Home = () => {
     return (
-        <div id='home' className="home">
-            <h1> Here is the Eatnan app</h1>
-            <img src="https://media.tenor.com/gmXv0eKLZPIAAAAM/pop-corn-eating.gif" alt="eating logo" />
+        <div id='home' className="main-home col-lg-12">
+            <div className="home col-lg-12">
+                <Hero/>
+                <Second/>
+                <Cards/>
+            </div>
         </div>
     )
 }
