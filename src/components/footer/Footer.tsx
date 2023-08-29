@@ -8,6 +8,7 @@ const Footer = () => {
             <div className="footer col-lg-12 d-flex">
                 <div className="footer-logo col-lg-6">
                     <Link className="footer-logo-title" to="section-01">EATNAN</Link>
+                    <p><i>Learn more about the app by visiting the About page.</i> </p>
                 </div>
                 <div className="col-lg-6 footer-navigation">
                     <ul>
