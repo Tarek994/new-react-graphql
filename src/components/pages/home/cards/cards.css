@@ -1,7 +1,7 @@
 .main-cards {
     display: flex;
     flex-direction: column;
-    padding: 2rem 1rem 2rem 0rem;
+    padding: 0rem 1rem 2rem 0rem;
     border-radius: var(--border-radius-primary);
 }
 
@@ -26,10 +26,14 @@
     border-bottom-right-radius: 20px;
 }
 
+.card-image{
+    border-radius: 15px 15px 0 0;}
+
 .cards {
     display: flex;
     justify-content: space-between;
-    padding: 0rem !important;
+    padding-top: 2rem!important;
+    margin-top:2rem !important ;
 }
 
 .card-01 {
