@@ -6,7 +6,6 @@ import sad2 from "./hero-assets/sad2.jpg";
 import happy from "./hero-assets/happy.jpg";
 import Button from "@mui/material/Button";
 import Grid from "@mui/material/Grid";
-import { useTheme } from '@mui/material/styles';
 import { colorScheme } from "../../../../index"
 
 const HeroContainer = styled("div")({
@@ -26,7 +25,6 @@ const HeroContainerImages = styled("div")({
         textAlign: "center",
         margin: "auto",
         padding: "1rem",
-
     },
 });
 
@@ -37,9 +35,7 @@ const HeroText = styled("div")({
     minHeight: "18rem",
     "@media (max-width: 1200px)": {
         textAlign: "start",
-
     },
-
 });
 
 const HeroImageRight = styled("img")({
@@ -67,8 +63,6 @@ const HeroImageLeft = styled("img")({
 },);
 
 const Hero = () => {
-    // const theme = useTheme();
-
     return (
         <Grid container spacing={1}
             style={{
