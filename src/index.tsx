@@ -7,7 +7,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 
-const colorScheme = {
+export const colorScheme = {
   skyBlue: '#87CEEB',
   aqua: '#00FFFF',
   pastelPink: '#FFB6C1',
@@ -19,7 +19,7 @@ const colorScheme = {
   peach: '#FFDAB9',
 };
 
-const theme = createTheme({
+export const theme = createTheme({
   palette: {
     primary: {
       main: colorScheme.skyBlue,
