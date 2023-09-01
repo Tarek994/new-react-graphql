@@ -1,8 +1,9 @@
 import "./navbar.css";
-import logo from "./nav-assets/logo.png";
 import Grid from '@mui/material/Unstable_Grid2';
 import Tabs from '@mui/material/Tabs';
 import LinkTab from '@mui/material/Tab';
+import { Box } from "@mui/system";
+import { Typography } from "@mui/material";
 
 const Navbar = () => {
   const handleChange = (e: any) => {
@@ -15,12 +16,20 @@ const Navbar = () => {
       md={12}
       maxWidth={'lg'}
       justifyContent="flex-end"
-      style={{ backgroundColor: 'white' }}
       justifyItems="center"
       alignContent="center"
+      sx={{ p: 2 }}
     >
       <Grid xs={3} md={2}>
-        <img src={logo} alt="Logo" className="logo" />
+        <Box>
+          <Typography sx={{
+            fontSize: 'h4.fontSize',
+            fontFamily: 'ADLaM Display',
+            fontWeight: 800
+          }}>
+            Eatnan
+          </Typography>
+        </Box>
       </Grid>
       <Grid
         container

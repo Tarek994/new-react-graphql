@@ -7,6 +7,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 
+
 export const colorScheme = {
   skyBlue: '#87CEEB',
   aqua: '#00FFFF',
@@ -31,6 +32,22 @@ export const theme = createTheme({
       light: colorScheme.mintGreen,
       dark: colorScheme.softGreen
     },
+  },
+  typography: {
+    fontFamily: [
+      '-apple-system',
+      'BlinkMacSystemFont',
+      '"Segoe UI"',
+      'Roboto',
+      '"Helvetica Neue"',
+      'Arial',
+      'sans-serif',
+      '"Apple Color Emoji"',
+      '"Segoe UI Emoji"',
+      '"Segoe UI Symbol"',
+      'ADLaM-Display',
+      '"ADLaM Display"',
+    ].join(','),
   },
 });
 
