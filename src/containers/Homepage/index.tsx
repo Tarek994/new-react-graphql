@@ -4,6 +4,7 @@ import Hero from '../../components/pages/home/hero/Hero';
 import KeyboardDoubleArrowDownIcon from '@mui/icons-material/KeyboardDoubleArrowDown';
 import { useTheme } from '@emotion/react';
 import { Fade, AttentionSeeker } from "react-awesome-reveal";
+import Second from '../../components/pages/home/second/Second';
 
 
 const Home = () => {
@@ -18,6 +19,10 @@ const Home = () => {
                 <AttentionSeeker effect='shakeY'>
                     <KeyboardDoubleArrowDownIcon sx={{ fontSize: 'h1.fontSize' }} />
                 </AttentionSeeker>
+            </Grid>
+            <Grid item xs={12}>
+                <Second/>
+
             </Grid>
         </Grid >
     )
