@@ -1,4 +1,3 @@
-import React from "react";
 import { styled } from "@mui/material/styles";
 import sad2 from "./hero-assets/sad2.jpg";
 import happy from "./hero-assets/happy.jpg";
@@ -17,7 +16,6 @@ const HeroContainerImages = styled("div")({
     padding: "1rem",
   },
 });
-
 
 const HeroImageRight = styled("img")({
   borderRadius: "20px",
