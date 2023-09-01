@@ -1,0 +1,39 @@
+.css-a5rdam-MuiGrid-root>.MuiGrid-item{
+    padding-left: 0px !important;
+}
+
+
+/* .main-second {
+
+    display: flex;
+    padding: 2rem 1rem 1rem 0rem;
+    flex-direction: column;
+}
+
+.second {
+    border-radius: var(--border-radius-primary);
+    background: var(--color-secondary);
+    display: flex;
+    justify-content: space-between;
+    margin: 4rem 0rem;
+}
+
+.second-text-top {
+    margin-bottom: 2rem;
+}
+
+.second-paragraph {
+    padding: 2rem 1rem;
+}
+
+.second-img-group {
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.second-img-hands {
+    width: 100%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+} */
