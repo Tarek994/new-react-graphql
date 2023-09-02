@@ -67,33 +67,24 @@ const Cards = () => {
         padding: "16px",
         marginBottom:"2rem",
       }}
-    >
-<Grid item xs={12} sm={5} md={5} lg={5}  sx={{ backgroundColor: `${secondaryColor}`,
-  borderRadius:"20px",
-}} >
-  <Grid item container
-    sx={{
-      textAlign: "center",
-      backgroundColor: `${secondaryColor}`,
-      display: "inline-flex",
-      flexDirection: "column", // Make the title and image stack vertically
-      alignItems: "center", // Center the content horizontally
-    }}
-  >
-    <CardsTitle>
-      <Typography variant="h5">
-        A Table for All, A Taste of Togetherness
-      </Typography>
-    </CardsTitle>
-  </Grid>
-</Grid>
-<Grid item xs={12} sm={7} md={7} lg={7}>
-  <CardsImage
-    sx={{ maxHeight: "30rem", objectFit: "cover" }}
-    src={cards}
-    alt="table-together"
-  />
-</Grid>
+      >
+        
+      <Grid
+        className="first-cards-section"
+        item container
+        sm={12}
+        xs={12}
+        md={12}
+        lg={12}
+        style={{
+          display: "flex",
+          alignItems: "center",
+          backgroundColor: `${secondaryColor}`,
+          borderRadius: "20px",
+          width: "100%",
+        }}
+        >
+
 
 
       <Grid item container spacing={2}>
