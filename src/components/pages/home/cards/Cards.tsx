@@ -56,6 +56,10 @@ const Cards = () => {
   return (
     <Grid
       container
+      sm={11}
+      md={11}
+      lg={12}
+      xs={12}
       sx={{
         margin: "auto",
         textAlign: "center",
