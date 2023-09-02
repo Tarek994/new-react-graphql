@@ -125,6 +125,23 @@ const Cards = () => {
           </Grid>
         </Grid>
 
+        {/* Section 2 */}
+        <Grid
+          className="image"
+          item container
+          xs={12}
+          sm={12}
+          md={12}
+          lg={7}
+          >
+          <CardsImage
+            sx={{ maxHeight: "30rem", objectFit: "cover", width: "100%" }}
+            src={cards}
+            alt="table-together"
+          />
+        </Grid>
+      </Grid>
+
 
 
       <Grid item container spacing={2}>
