@@ -32,8 +32,10 @@ const CardsImage = styled("img")({
   width: "100%",
   borderTopRightRadius: "20px",
   borderBottomRightRadius: "20px",
+  "@media (max-width: 1198px)": {
+    borderRadius: '0px 0px 20px 20px ',
+  },
 });
-
 const CardImage = styled("img")({
   borderRadius: "15px 15px 0 0",
 });
