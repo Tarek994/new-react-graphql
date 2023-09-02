@@ -6,28 +6,6 @@ import card2 from "./cards-assets/card2.jpg";
 import card3 from "./cards-assets/card3.jpg";
 import { theme } from "../../../../index";
 
-const MainCards = styled("div")({
-  display: "flex",
-  flexDirection: "column",
-  padding: "0rem 1rem 2rem 0rem",
-  borderRadius: "var(--border-radius-primary)",
-});
-
-// const CardsHero = styled("div")({
-//   display: "flex",
-//   justifyContent: "space-between",
-//   borderRadius: "var(--border-radius-primary)",
-//   margin: "3rem 0rem",
-//   paddingLeft: "1rem",
-//   backgroundColor: "var(--color-secondary)",
-// });
-
-const CardsTitle = styled("div")({
-  display: "flex",
-  alignItems: "center",
-  textAlign: "center",
-});
-
 const CardsImage = styled("img")({
   width: "100%",
   borderTopRightRadius: "20px",
@@ -50,6 +28,8 @@ const CardBody = styled("div")({
   padding: "0.5rem",
 });
 
+
+
 const Cards = () => {
   const secondaryColor = theme.palette.secondary.main;
 
@@ -65,10 +45,10 @@ const Cards = () => {
         textAlign: "center",
         width: "100%",
         padding: "16px",
-        marginBottom:"2rem",
+        marginBottom: "2rem",
       }}
-      >
-        
+    >
+
       <Grid
         className="first-cards-section"
         item container
@@ -83,7 +63,7 @@ const Cards = () => {
           borderRadius: "20px",
           width: "100%",
         }}
-        >
+      >
 
         {/* Section 1 */}
         <Grid
@@ -98,7 +78,7 @@ const Cards = () => {
             padding: "1rem",
             width: "100%",
           }}
-          >
+        >
           <Grid
             item
             container
@@ -107,7 +87,7 @@ const Cards = () => {
               backgroundColor: `${secondaryColor}`,
               alignItems: "center",
             }}
-            >
+          >
             <Grid
               item
               sx={{
@@ -133,7 +113,7 @@ const Cards = () => {
           sm={12}
           md={12}
           lg={7}
-          >
+        >
           <CardsImage
             sx={{ maxHeight: "30rem", objectFit: "cover", width: "100%" }}
             src={cards}
@@ -182,6 +162,7 @@ const Cards = () => {
             </CardBody>
           </Card>
         </Grid>
+
       </Grid>
     </Grid>
   );
