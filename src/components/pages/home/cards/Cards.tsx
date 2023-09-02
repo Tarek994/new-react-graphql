@@ -64,7 +64,8 @@ const Cards = () => {
         margin: "auto",
         textAlign: "center",
         width: "100%",
-        padding: "1rem",
+        padding: "16px",
+        marginBottom:"2rem",
       }}
     >
 <Grid item xs={12} sm={5} md={5} lg={5}  sx={{ backgroundColor: `${secondaryColor}`,
