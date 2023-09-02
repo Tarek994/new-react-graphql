@@ -85,6 +85,46 @@ const Cards = () => {
         }}
         >
 
+        {/* Section 1 */}
+        <Grid
+          className="title"
+          item
+          xs={12}
+          sm={12}
+          md={12}
+          lg={5}
+          sx={{
+            backgroundColor: `${secondaryColor}`,
+            padding: "1rem",
+            width: "100%",
+          }}
+          >
+          <Grid
+            item
+            container
+            sx={{
+              textAlign: "center",
+              backgroundColor: `${secondaryColor}`,
+              alignItems: "center",
+            }}
+            >
+            <Grid
+              item
+              sx={{
+                display: "flex",
+                textAlign: "center",
+                alignItems: "center",
+                width: "100%",
+                minHeight: "10rem",
+              }}
+            >
+              <Typography variant="h5">
+                A Table for All, A Taste of Togetherness
+              </Typography>
+            </Grid>
+          </Grid>
+        </Grid>
+
 
 
       <Grid item container spacing={2}>
