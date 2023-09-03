@@ -152,7 +152,7 @@ const Cards = () => {
           <Grid>
             <CardImage sx={{ width: "100%" }} src={card1} alt="card-01" />
             <CardBody>
-              <Typography variant="body1">
+              <Typography style={{ textAlign: "start" }} variant="body1">
                 At Eatnan, we've set a table where everyone is welcome. Our
                 vision is to break the barriers that often separate us and
                 replace them with the bonds formed over a delicious meal.
@@ -171,7 +171,7 @@ const Cards = () => {
           }}>
             <CardImage sx={{ width: "100%" }} src={card2} alt="card-02" />
             <CardBody>
-              <Typography variant="body1">
+              <Typography style={{ textAlign: "start" }} variant="body1">
                 Whether you're a chef extraordinaire or someone who simply loves
                 to savor flavors, Eatnan offers a space to share your creations
                 and experiences.
@@ -190,7 +190,7 @@ const Cards = () => {
           }}>
             <CardImage sx={{ width: "100%" }} src={card3} alt="card-03" />
             <CardBody>
-              <Typography variant="body1">
+              <Typography style={{ textAlign: "start" }} variant="body1">
                 This is more than an app; it's a movement that celebrates
                 diversity, fosters inclusivity, and reminds us of the beauty in
                 coming together. Join hands, share dishes, and be a part of a
