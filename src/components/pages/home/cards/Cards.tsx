@@ -60,6 +60,7 @@ const Cards = () => {
           backgroundColor: `${secondaryColor}`,
           borderRadius: "20px",
           width: "100%",
+          marginBottom: "8rem",
         }}
       >
 
