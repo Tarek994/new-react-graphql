@@ -5,6 +5,7 @@ import card1 from "./cards-assets/card1.jpg";
 import card2 from "./cards-assets/card2.jpg";
 import card3 from "./cards-assets/card3.jpg";
 import { theme } from "../../../../index";
+// import { useTheme } from "@mui/styles";
 
 const CardsImage = styled("img")({
   width: "100%",
@@ -43,7 +44,9 @@ const CardBody = styled("div")({
 
 const Cards = () => {
   const secondaryColor = theme.palette.secondary.main;
+  // const muiTheme = useTheme();
 
+  // const isMediumScreen = muiTheme.breakpoints.up("md");
   return (
     <Grid
       container
