@@ -26,6 +26,19 @@ const CardBody = styled("div")({
   padding: "1rem",
 });
 
+// const useStyles = makeStyles((theme) => ({
+//   gridItem: {
+//     backgroundColor: `${secondaryColor}`,
+//     padding: '0rem',
+//     borderRadius: '20px',
+//     margin: '0rem auto',
+//     minHeight: '25rem',
+//     marginBottom: '2rem',
+//     [theme.breakpoints.down('sm')]: {
+//       marginBottom: '2rem',
+//     },
+//   },
+// }));
 
 
 const Cards = () => {
