@@ -138,6 +138,14 @@ const Cards = () => {
           margin: "0rem auto",
         }}
       >
+        <Grid item xs={11} sm={12} md={3.5} lg={3.5}
+          style={{
+            backgroundColor: `${secondaryColor}`,
+            padding: "0rem",
+            borderRadius: "20px",
+            margin: "0rem auto",
+            minHeight: "25rem",
+            marginBottom: "2rem",
 
       <Grid item container spacing={2}>
         <Grid item sm={4} md={4} lg={4}>
@@ -152,8 +160,14 @@ const Cards = () => {
             </CardBody>
           </Grid>
         </Grid>
-        <Grid item xs={4} sm={4}>
-          <Card>
+          style={{
+            backgroundColor: `${secondaryColor}`,
+            padding: "0rem",
+            borderRadius: "20px",
+            margin: "0rem auto",
+            minHeight: "25rem",
+            marginBottom: "2rem",
+          }}>
             <CardImage sx={{ width: "100%" }} src={card2} alt="card-02" />
             <CardBody>
               <Typography variant="body1">
@@ -164,8 +178,14 @@ const Cards = () => {
             </CardBody>
           </Card>
         </Grid>
-        <Grid item xs={4} sm={4}>
-          <Card>
+          style={{
+            backgroundColor: `${secondaryColor}`,
+            padding: "0rem",
+            borderRadius: "20px",
+            margin: "0rem auto",
+            minHeight: "25rem",
+            marginBottom: "2rem",
+          }}>
             <CardImage sx={{ width: "100%" }} src={card3} alt="card-03" />
             <CardBody>
               <Typography variant="body1">
