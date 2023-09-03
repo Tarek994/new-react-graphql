@@ -128,6 +128,16 @@ const Cards = () => {
       </Grid>
 
 
+      {/* The Small Cards */}
+      <Grid item container spacing={2}
+        style={{
+          display: "flex",
+          justifyContent: "spaceBetween",
+          textAlign: "center",
+          width: "100%",
+          margin: "0rem auto",
+        }}
+      >
 
       <Grid item container spacing={2}>
         <Grid item sm={4} md={4} lg={4}>
