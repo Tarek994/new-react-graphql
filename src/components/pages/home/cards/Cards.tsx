@@ -98,7 +98,7 @@ const Cards = () => {
                 minHeight: "10rem",
               }}
             >
-              <Typography variant="h5">
+              <Typography style={{ fontWeight: 'bold' }} variant="h5">
                 A Table for All, A Taste of Togetherness
               </Typography>
             </Grid>
