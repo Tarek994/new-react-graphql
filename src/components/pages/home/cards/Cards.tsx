@@ -57,8 +57,8 @@ const Cards = () => {
         width: "100%",
         padding: "16px",
         marginBottom: "2rem",
-      }}
-    >
+      }}>
+
 
       <Grid
         className="first-cards-section"
@@ -132,7 +132,6 @@ const Cards = () => {
               maxHeight: "30rem",
               objectFit: "cover",
               width: "100%",
-
             }}
             src={cards}
             alt="table-together"
@@ -159,9 +158,7 @@ const Cards = () => {
             margin: "0rem auto",
             minHeight: "25rem",
             marginBottom: "2rem",
-
-      <Grid item container spacing={2}>
-        <Grid item sm={4} md={4} lg={4}>
+          }}>
           <Grid>
             <CardImage sx={{ width: "100%" }} src={card1} alt="card-01" />
             <CardBody>
@@ -182,6 +179,7 @@ const Cards = () => {
             minHeight: "25rem",
             marginBottom: "2rem",
           }}>
+          <Grid>
             <CardImage sx={{ width: "100%" }} src={card2} alt="card-02" />
             <CardBody>
               <Typography style={{ textAlign: "start" }} variant="body1">
@@ -190,7 +188,7 @@ const Cards = () => {
                 and experiences.
               </Typography>
             </CardBody>
-          </Card>
+          </Grid>
         </Grid>
         <Grid item xs={11} sm={12} md={3.5} lg={3.5}
           style={{
@@ -201,6 +199,7 @@ const Cards = () => {
             minHeight: "25rem",
             marginBottom: "2rem",
           }}>
+          <Grid>
             <CardImage sx={{ width: "100%" }} src={card3} alt="card-03" />
             <CardBody>
               <Typography style={{ textAlign: "start" }} variant="body1">
@@ -210,7 +209,7 @@ const Cards = () => {
                 community where every taste brings us closer.
               </Typography>
             </CardBody>
-          </Card>
+          </Grid>
         </Grid>
 
       </Grid>
