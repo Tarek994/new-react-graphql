@@ -7,9 +7,9 @@ import { theme } from "../../../../index";
 
 const MainSecond = styled('div')({
   padding: "1rem 1rem",
-  "@media (max-width: 992px)": {
+  "@media (max-width: 1998px)": {
     textAlign: "center",
-    padding: "2rem 1rem",
+    padding: "1rem 1rem",
   },
 });
 
@@ -26,12 +26,9 @@ const SecondParagraph = styled('div')({
 const SecondImgGroup = styled('img')({
   width: '100%',
   borderRadius: '20px 0px 0px 20px',
-
   "@media (max-width: 1198px)": {
-
     borderRadius: '20px 20px 0px 0px',
   },
-
 });
 
 const SecondImgHands = styled('img')({
@@ -51,7 +48,7 @@ const Second = () => {
       <Grid container xs={12} sm={11} md={11} lg={12}
         sx={{
           display: 'flex',
-          margin: "8rem auto",
+          margin: "4rem auto",
           textAlign: "center",
           background: `${secondaryColor}`,
           borderRadius: '20px',
@@ -85,7 +82,7 @@ const Second = () => {
 
       <Grid container xs={12} sm={11} md={11} lg={12}
         style={{
-          margin: "0rem auto 8rem auto",
+          margin: "auto",
           textAlign: "center",
           background: `${secondaryColor}`,
           borderRadius: '20px',
