@@ -23,7 +23,7 @@ const CardImage = styled("img")({
 });
 
 const CardBody = styled("div")({
-  padding: "0.5rem",
+  padding: "1rem",
 });
 
 
