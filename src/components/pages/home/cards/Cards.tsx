@@ -76,6 +76,7 @@ const Cards = () => {
             backgroundColor: `${secondaryColor}`,
             padding: "1rem",
             width: "100%",
+            borderRadius: "20px",
           }}
         >
           <Grid
