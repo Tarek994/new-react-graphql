@@ -16,12 +16,10 @@ const CardsImage = styled("img")({
 });
 const CardImage = styled("img")({
   borderRadius: "15px 15px 0 0",
-});
+  objectFit: "cover",
 
-const Card = styled("div")({
-  margin: "0.5rem",
-  backgroundColor: "var(--color-secondary)",
-  borderRadius: "var(--border-radius-secondary)",
+  minHeight: "18rem",
+
 });
 
 const CardBody = styled("div")({
