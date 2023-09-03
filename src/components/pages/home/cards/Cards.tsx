@@ -115,7 +115,12 @@ const Cards = () => {
           lg={7}
         >
           <CardsImage
-            sx={{ maxHeight: "30rem", objectFit: "cover", width: "100%" }}
+            sx={{
+              maxHeight: "30rem",
+              objectFit: "cover",
+              width: "100%",
+
+            }}
             src={cards}
             alt="table-together"
           />
