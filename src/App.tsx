@@ -5,6 +5,7 @@ import Home from "./containers/Homepage";
 import About from "./components/pages/about/About";
 import { styled } from '@mui/material/styles';
 import Grid from '@mui/material/Unstable_Grid2';
+import Footer from "./components/footer/Footer";
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
             <Route path="/about" element={<About />} />
           </Routes>
         </Grid>
+        <Footer/>
       </MainGrid>
     </Router>
   );
