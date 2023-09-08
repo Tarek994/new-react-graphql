@@ -56,10 +56,10 @@ const Hero = () => {
       <Grid item xs={12} md={12} lg={6} sx={{ p: 2 }}>
         <HeroContainerImages>
           <Grid container>
-            <Grid item xs={12} sm={12} md={6} lg={6}>
+            <Grid item xs={6} sm={6} md={6} lg={6}>
               <HeroImageLeft className="img-sad" src={sad2} alt="sad" />
             </Grid>
-            <Grid item xs={12} sm={12} md={6} lg={6}>
+            <Grid item xs={6} sm={6} md={6} lg={6}>
               <HeroImageRight className="img-happy" src={happy} alt="happy" />
             </Grid>
           </Grid>
