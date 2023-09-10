@@ -12,7 +12,14 @@ const Home = () => {
     const theme = useTheme()
     console.log('🚀 --> file: index.tsx:10 --> Home --> theme:', theme)
     return (
-        <Grid xs={12} container sx={{ paddingTop: 8, paddingBottom: 8 }}>
+        <Grid xs={12} container sx={{ paddingTop: 8,
+            paddingBottom: {
+                lg:8,
+                md:6,
+                sm:4,
+                xs:2,
+            } 
+        }}>
             <Grid item xs={12}>
                 <Hero />
             </Grid>
