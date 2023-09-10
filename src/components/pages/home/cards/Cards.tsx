@@ -158,7 +158,7 @@ const Cards = () => {
           margin: "0rem auto",
         }}
       >
-        <Grid item xs={11} sm={12} md={3.5} lg={3.5}
+        <Grid item xs={12} sm={12} md={3.5} lg={3.5}
           style={{
             backgroundColor: `${secondaryColor}`,
             padding: "0rem",
@@ -178,7 +178,7 @@ const Cards = () => {
             </CardBody>
           </Grid>
         </Grid>
-        <Grid item xs={11} sm={12} md={3.5} lg={3.5}
+        <Grid item xs={12} sm={12} md={3.5} lg={3.5}
           style={{
             backgroundColor: `${secondaryColor}`,
             padding: "0rem",
@@ -198,7 +198,7 @@ const Cards = () => {
             </CardBody>
           </Grid>
         </Grid>
-        <Grid item xs={11} sm={12} md={3.5} lg={3.5}
+        <Grid item xs={12} sm={12} md={3.5} lg={3.5}
           style={{
             backgroundColor: `${secondaryColor}`,
             padding: "0rem",
