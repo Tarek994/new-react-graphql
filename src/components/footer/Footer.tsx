@@ -78,7 +78,9 @@ const Footer = () => {
           <Grid item lg={1} md={2} sm={2} xs={2}
             sx={{
               marginRight: {
-                xs: 4,
+                lg: 1,
+                md: 0,
+                xs: 3,
               }
             }}>
             <Link
