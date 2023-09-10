@@ -59,7 +59,12 @@ const Cards = () => {
         textAlign: "center",
         width: "100%",
         padding: "16px",
-        marginBottom: "2rem",
+        marginBottom:{
+          lg:4,
+          md:4,
+          sm:0,
+          xs:0,
+        }
       }}>
 
 
