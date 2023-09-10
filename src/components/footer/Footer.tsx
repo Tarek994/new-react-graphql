@@ -67,9 +67,13 @@ const Footer = () => {
         <Grid xs={6} sm={6} md={6} lg={6}
           container
           item
-          style={{
+          sx={{
             display: "flex",
-            textAlign: "end",
+            justifyContent: {
+              lg: "flex-end",
+              sm: "flex-start",
+            }
+
           }}>
           <Grid item lg={1} md={2} sm={2} xs={2}
             sx={{
