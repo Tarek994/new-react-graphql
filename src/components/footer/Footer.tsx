@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import { Grid, Typography } from "@mui/material";
 
@@ -91,13 +90,16 @@ const Footer = () => {
                 borderRadius: "20px",
                 fontSize: "12px",
                 fontWeight: "800",
+                paddingLeft: "0",
+
               }}
             >
               HOME
             </Link>
           </Grid>
 
-          <Grid item lg={1} md={2} sm={2} xs={2}>
+          <Grid item lg={1} md={2} sm={2} xs={2}
+          >
             <Link
               to="/about"
               style={{
