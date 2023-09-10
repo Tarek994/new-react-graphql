@@ -19,7 +19,7 @@ const Footer = () => {
         style={{
           maxWidth: "1200px",
           margin: "0.5rem auto",
-          padding: "2rem 1rem",
+          padding: "1rem",
           alignItems: "center",
           display: "flex",
           justifyContent: "space-between",
