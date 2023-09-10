@@ -18,14 +18,18 @@ const Navbar = () => {
       justifyContent="flex-end"
       justifyItems="center"
       alignContent="center"
-      sx={{ p: 2 }}
-    >
-      <Grid xs={3} md={2}>
+      alignItems="baseLine"
+      sx={{ p: 2 }}>
+
+      <Grid xs={6} md={2}>
         <Box>
           <Typography sx={{
-            fontSize: 'h4.fontSize',
+
+            fontSize: {
+              xs: 22,
+            },
             fontFamily: 'ADLaM Display',
-            fontWeight: 800
+            fontWeight: 800,
           }}>
             Eatnan
           </Typography>
@@ -33,7 +37,7 @@ const Navbar = () => {
       </Grid>
       <Grid
         container
-        xs={8}
+        xs={6}
         md={10}
         justifyContent="flex-end"
         justifyItems="center"
