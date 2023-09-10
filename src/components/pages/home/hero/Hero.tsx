@@ -3,6 +3,7 @@ import sad2 from "./hero-assets/sad2.jpg";
 import happy from "./hero-assets/happy.jpg";
 import Grid from "@mui/material/Grid";
 import { Typography } from "@mui/material";
+import "./hero.css";
 
 
 const HeroContainerImages = styled("div")({
@@ -43,19 +44,44 @@ const HeroImageLeft = styled("img")({
 
 const Hero = () => {
   return (
-    <Grid container sx={{ marginTop: 8 }}>
-      <Grid item xs={12} md={12} lg={6} sx={{ p: 2 }}>
+    <Grid container sx={{
+      paddingTop: {
+      xs: 0,
+      },
+      marginTop: {
+        xs: 0,
+        sm: 0,
+        md: 8,
+        lg: 8,
+      },
+     }}>
+      <Grid item xs={12} md={12} lg={6} sx={{ p: 2
+
+      }}>
         <Typography
-          fontSize={'h4.fontSize'}
-          fontWeight='800'
-        >
+        sx={{
+          fontSize: {
+            xs: 20,
+            sm: 25,
+            md: 30,
+            lg: 30,
+          },
+          fontWeight:'800',
+        }}>
+          
+          
           538 hours are lost every year to get home made meals. Imaging investing this time in building connections that will change your life, That’s what Eatnan is for!,
         </Typography>
       </Grid>
 
       <Grid item xs={12} md={12} lg={6} sx={{ p: 2 }}>
         <HeroContainerImages>
-          <Grid container>
+          <Grid container sx={{textAlign:"center", display:"flex", justifyContent:"center",
+          padding: {
+            xs:0,
+            sm:0,
+          }
+        }}>
             <Grid item xs={6} sm={6} md={6} lg={6}>
               <HeroImageLeft className="img-sad" src={sad2} alt="sad" />
             </Grid>
