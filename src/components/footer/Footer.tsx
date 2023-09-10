@@ -72,7 +72,11 @@ const Footer = () => {
             textAlign: "end",
           }}>
           <Grid item lg={1} md={2} sm={2} xs={2}
-            style={{ marginRight: "1rem" }}>
+            sx={{
+              marginRight: {
+                xs: 4,
+              }
+            }}>
             <Link
               to="/"
               style={{
